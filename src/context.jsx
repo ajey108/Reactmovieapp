@@ -2,7 +2,7 @@ import React, { useContext, useEffect, useState } from "react";
 import { children } from "react";
 
 
-export const API_URL = `https://www.omdbapi.com/?apikey=${import.meta.env.VITE_API_KEY}`;
+export const API_URL = `http://www.omdbapi.com/?apikey=${import.meta.env.VITE_API_KEY}`;
 
 
 
