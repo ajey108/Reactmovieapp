@@ -1,0 +1,48 @@
+.movie-card{
+    width: 30%;
+    border: 2px solid rgb(212, 212, 212);
+    margin: auto;
+    position: relative;
+    top: 200px;
+    display: flex;
+}
+
+
+
+.movie-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.movie-info{
+    padding-top: 60px;
+}
+
+.movie-info p{
+    padding-bottom: 10px;
+}
+
+.movie-img img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.back{
+    text-align: center;
+    background-color: rgb(47, 42, 42);
+    color: white;
+    border: 2px solid rgb(109, 109, 109);
+    padding: 5px;
+    margin-left: 80px;
+    margin-top: 15px;
+
+}
+
+
+.loading{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 50px;
+}

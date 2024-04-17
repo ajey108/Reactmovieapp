@@ -1,0 +1,28 @@
+.movie-page{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+    text-align: center;
+    height: 100vh;
+  
+    
+  
+    
+}
+
+.card{
+    width: 80%;
+    border: 1px solid white;
+    padding: 2px;
+    color: white;
+    margin: 10px;
+
+
+}
+.card img{
+    width: 100%;
+    object-fit: cover;
+
+}

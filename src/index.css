@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(84, 83, 83);
+    color: #fff;;
+  
+    
+    
+}
+
+
+a{
+    text-decoration: none;
+}
