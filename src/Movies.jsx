@@ -1,6 +1,5 @@
 import React from 'react'
 import { useGlobalContext } from './context'
- import './Movies.css';
 import { NavLink } from 'react-router-dom';
 
 const Movies = () => {
@@ -8,7 +7,7 @@ const Movies = () => {
  
   return (
    <>
-   <section className='movie-page'>
+   <section className='flex flex-wrap items-center justify-around mb-10 text-center h-screen'>
     
    
   
@@ -18,9 +17,9 @@ const Movies = () => {
     const movieName =Title.substring(0,15);
     return <NavLink  key={imdbID} to={`movie/${imdbID}`}>
 
-      <div className='card'>
+      <div className='w-80 border border-white p-2 text-white m-10'>
         <h2>{movieName.length >= 15 ? `${movieName} ...` : movieName} </h2>
-      <img src={Poster} />
+      <img className="w-full" src={Poster} />
       <h1>{Year}</h1>
       </div>
     </NavLink>;
