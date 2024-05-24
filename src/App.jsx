@@ -5,6 +5,8 @@ import SingleMovie from './SingleMovie';
 import Error from './Error';
 
 
+
+
 const App = () => {
   return (
     <>
