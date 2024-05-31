@@ -7,7 +7,7 @@ const Movies = () => {
  
     return (
         <>
-            <section className='flex items-center justify-around mb-10 text-center'>
+            <section className='flex items-center flex-wrap justify-around mb-10 text-center'>
                 {movie.map((currentMovie) => {
                     const { imdbID, Title, Poster, Year } = currentMovie;
 
