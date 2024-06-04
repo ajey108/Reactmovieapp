@@ -13,7 +13,7 @@ const Search = () => {
             <span className="text-xl md:text-4xl font-thin text-yellow-500 mr-2 md:mr-4">IMDB</span>
             <input
               id="movieSearch"
-              className="rounded-lg border border-gray-300 focus:border-blue-500 focus:outline-none w-full sm:w-3/4 md:w-1/2 lg:w-1/3 xl:w-1/4 px-2 sm:px-3 md:px-4 py-1 sm:py-2 text-sm md:text-base"
+              className="rounded-lg border border-gray-300 focus:border-blue-500 focus:outline-none w-full sm:w-3/4 md:w-1/2 lg:w-1/3 xl:w-1/4 px-2 sm:px-3 md:px-4 py-1 sm:py-2 text-sm text-black md:text-base"
               type="text"
               placeholder="Search movie"
               value={search}
